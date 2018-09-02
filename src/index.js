@@ -8,8 +8,8 @@ import ReactDOM from 'react-dom';
 // import NoMatch from './NoMatch';
 // import RecursivePaths from './RecursivePaths';
 // import SideBar from './SideBar';
-import Animation from './Animation';
-
+// import Animation from './Animation';
+import Ambiguous from './Ambiguous';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<UrlParams />, document.getElementById('root'));
@@ -19,4 +19,5 @@ import Animation from './Animation';
 // ReactDOM.render(<NoMatch />, document.getElementById('root'));
 // ReactDOM.render(<RecursivePaths />, document.getElementById('root'));
 // ReactDOM.render(<SideBar />, document.getElementById('root'));
-ReactDOM.render(<Animation />, document.getElementById('root'));
+// ReactDOM.render(<Animation />, document.getElementById('root'));
+ReactDOM.render(<Ambiguous />, document.getElementById('root'));
