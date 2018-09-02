@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom';
 // import PreventingTransitions from './PreventingTransitions';
 // import NoMatch from './NoMatch';
 import RecursivePaths from './RecursivePaths';
+import SideBar from './SideBar';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<UrlParams />, document.getElementById('root'));
@@ -14,5 +15,6 @@ import RecursivePaths from './RecursivePaths';
 // ReactDOM.render(<CustomLink />, document.getElementById('root'));
 // ReactDOM.render(<PreventingTransitions />, document.getElementById('root'));
 // ReactDOM.render(<NoMatch />, document.getElementById('root'));
-ReactDOM.render(<RecursivePaths />, document.getElementById('root'));
+// ReactDOM.render(<RecursivePaths />, document.getElementById('root'));
+ReactDOM.render(<SideBar />, document.getElementById('root'));
 
