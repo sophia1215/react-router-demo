@@ -9,7 +9,8 @@ import ReactDOM from 'react-dom';
 // import RecursivePaths from './RecursivePaths';
 // import SideBar from './SideBar';
 // import Animation from './Animation';
-import Ambiguous from './Ambiguous';
+// import Ambiguous from './Ambiguous';
+import RouteConfig from './RouteConfig';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<UrlParams />, document.getElementById('root'));
@@ -20,4 +21,5 @@ import Ambiguous from './Ambiguous';
 // ReactDOM.render(<RecursivePaths />, document.getElementById('root'));
 // ReactDOM.render(<SideBar />, document.getElementById('root'));
 // ReactDOM.render(<Animation />, document.getElementById('root'));
-ReactDOM.render(<Ambiguous />, document.getElementById('root'));
+// ReactDOM.render(<Ambiguous />, document.getElementById('root'));
+ReactDOM.render(<RouteConfig />, document.getElementById('root'));
