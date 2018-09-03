@@ -11,7 +11,9 @@ import ReactDOM from 'react-dom';
 // import Animation from './Animation';
 // import Ambiguous from './Ambiguous';
 // import RouteConfig from './RouteConfig';
-import ModalGallery from './ModalGallery';
+// import ModalGallery from './ModalGallery';
+import StaticRouterContext from './StaticRouterContext';
+
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<UrlParams />, document.getElementById('root'));
@@ -24,4 +26,5 @@ import ModalGallery from './ModalGallery';
 // ReactDOM.render(<Animation />, document.getElementById('root'));
 // ReactDOM.render(<Ambiguous />, document.getElementById('root'));
 // ReactDOM.render(<RouteConfig />, document.getElementById('root'));
-ReactDOM.render(<ModalGallery />, document.getElementById('root'));
+// ReactDOM.render(<ModalGallery />, document.getElementById('root'));
+ReactDOM.render(<StaticRouterContext />, document.getElementById('root'));
