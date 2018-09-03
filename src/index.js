@@ -10,7 +10,8 @@ import ReactDOM from 'react-dom';
 // import SideBar from './SideBar';
 // import Animation from './Animation';
 // import Ambiguous from './Ambiguous';
-import RouteConfig from './RouteConfig';
+// import RouteConfig from './RouteConfig';
+import ModalGallery from './ModalGallery';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<UrlParams />, document.getElementById('root'));
@@ -22,4 +23,5 @@ import RouteConfig from './RouteConfig';
 // ReactDOM.render(<SideBar />, document.getElementById('root'));
 // ReactDOM.render(<Animation />, document.getElementById('root'));
 // ReactDOM.render(<Ambiguous />, document.getElementById('root'));
-ReactDOM.render(<RouteConfig />, document.getElementById('root'));
+// ReactDOM.render(<RouteConfig />, document.getElementById('root'));
+ReactDOM.render(<ModalGallery />, document.getElementById('root'));
